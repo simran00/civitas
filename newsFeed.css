@@ -60,21 +60,27 @@ html, body {
 }
 
 .picture{
-	width: 80px;
-  	height: 80px;
+	width: 75px;
+  	height: 75px;
   	background: #aaa;
   	border-radius: 50%;
   	margin-left: 1em;
   	margin-top: 0.5em;
+  	border-width: 3px;
+  	border-color: #662e9b;
+  	border-style: solid;
 }
 
 .picture2{
-	width: 50px;
-  	height: 50px;
+	width: 45px;
+  	height: 45px;
   	background: #aaa;
   	border-radius: 50%;
   	margin-left: 1em;
   	margin-top: 0.5em;
+  	border-width: 2px;
+  	border-color: #662e9b;
+  	border-style: solid;
 }
 
 .name {
