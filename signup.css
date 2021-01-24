@@ -1,0 +1,63 @@
+input[type="text"] {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+
+#submitButton {
+  border: 2px solid purple;
+  border-radius: 3px;
+  color: purple;
+  background-color: white;
+}
+
+#submitButton:hover {
+  border: 2px solid purple;
+  border-radius: 3px;
+  color: white;
+  background-color: purple;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-size: 14px;
+  color: black;
+}
+
+body {
+  margin: 50px 100px 75px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-weight:normal;
+}
+
+textarea {
+  border-radius: 10px;
+  color: purple;
+}
+
+#id_causes input[type="checkbox"] {
+  display: none;
+}
+
+#id_causes span {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid purple;
+  border-radius: 3px;
+  color: purple;
+}
+
+#id_causes input[type="checkbox"]:checked + span {
+  background-color: purple;
+  color: white;
+}

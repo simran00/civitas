@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="signup.css" rel="stylesheet"/>
+  <title>Sign Up</title>
+</head>
+<body>
+  <h1 style="color:#49bcd8">Now, who are you beyond that Facebook?</h1>
+  <h3>You've just registered with your Facebook account, but we know that those
+    profiles don't always show your entire activist side. That's what these details
+    here are for.
+  </h3>
+  <h2 style="color:#49bcd8">Let's start with demographics.</h2>
+
+  <form>
+    <label for="name">NAME (IF DIFFERENT):</label><br>
+    <input type="text" id="name"></input><br>
+    <label for="gender">GENDER:</label><br>
+    <input type="text" id="gender"></input><br>
+    <label for="pronouns">PRONOUNS:</label><br>
+    <input type="text" id="pronouns"></input><br>
+    <label for="location">LOCATION:</label><br>
+    <input type="text" id="location"></input><br>
+    <label for="languages">LANGUAGES:</label><br>
+    <input type="text" id="languages"></input><br>
+    <label for="ethnicity">ETHNICITY:</label><br>
+    <input type="text" id="ethnicity"></input><br>
+  </form>
+
+  <h2 style="color:purple">What causes do you care about most?</h2>
+
+  <p id="id_causes">
+  <label><input type="checkbox" name="causes" value="1"><span>Gender equality</span></label>
+  <label><input type="checkbox" name="causes" value="2"><span>Environmentalism</span></label>
+  <label><input type="checkbox" name="causes" value="3"><span>Mental health</span></label>
+  <label><input type="checkbox" name="causes" value="4"><span>Animal rights</span></label>
+  <br>
+  <label><input type="checkbox" name="causes" value="5"><span>LGBTQIA+</span></label>
+  <label><input type="checkbox" name="causes" value="6"><span>Immigration</span></label>
+  <label><input type="checkbox" name="causes" value="7"><span>Climate change</span></label>
+  </p>
+
+  <h2 style="color:purple">Who are you as a person?</h2>
+
+
+  <label for="bio">&nbsp; BIO:</label><br>
+  <textarea id="bio" name="bio" rows="7" cols="50">
+  </textarea><br>
+
+  <label for="hobbies">&nbsp; HOBBIES:</label><br>
+  <textarea id="hobbies" name="hobbies" rows="7" cols="50">
+  </textarea><br>
+
+  <label for="meet">&nbsp; I'D LIKE TO MEET:</label><br>
+  <textarea id="meet" name="meet" rows="7" cols="50">
+  </textarea><br>
+
+  <div id="button">
+  <button onclick="location.href = 'feed.html';" id="submitButton" class="submit-button">SUBMIT</button>
+  </div>
+
+</body>
+</html>
